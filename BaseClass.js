@@ -12,11 +12,12 @@ class BaseClass{
         World.add(world,this.body); 
     }
     display(){
-        imageMode(CENTER);
+        
         push()
         translate(this.body.position.x,this.body.position.y)
         rotate(this.body.angle)
         fill("yellow");
+        imageMode(CENTER);
         image(this.image,0,0,this.w,this.h);
         pop()   
     }
