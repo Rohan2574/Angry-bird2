@@ -46,7 +46,7 @@ function setup(){
 }
 
 function draw(){
-    background(0);
+    background(backgroundImg);
     Engine.update(engine);
     // drawSprites();
     ground.display();
